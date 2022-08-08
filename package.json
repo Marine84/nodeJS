@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./module_2/read_write_file.js",
+    "test2": "node ./module_2/read_write_by_chunks.js",
+    "test3": "node ./module_2/duplex_stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marine84/nodeJS.git"
+  },
+  "author": "Marine Yegoryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marine84/nodeJS/issues"
+  },
+  "homepage": "https://github.com/Marine84/nodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10"
+  }
+}
